@@ -1,0 +1,38 @@
+---
+canvas: "https://luna.manchester.ac.uk/luna/servlet/iiif/m/maps002~1~1~336585~201027/canvas/c1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "New Cross",
+            "purpose": "commenting",
+            "creator": {
+                "id": "yuetmak",
+                "name": "yuetmak"
+            },
+            "created": "2026-04-23T12:23:53.827Z",
+            "modified": "2026-04-23T12:23:55.851Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/maps002~1~1~336585~201027/manifest",
+                "type": "Manifest"
+            },
+            "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/maps002~1~1~336585~201027/canvas/c1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=5205.28955078125,1252.877685546875,967.3857421875,609.12158203125"
+        }
+    },
+    "id": "c1f0e3e5-9582-4c45-a92a-452a76ca4153.json",
+    "motivation": "commenting"
+}
